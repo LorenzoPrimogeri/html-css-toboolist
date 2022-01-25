@@ -1,49 +1,48 @@
-
 *{
     box-sizing: border-box;
+    margin: 0;
 }
-
-
-.Displayreset{
+header{
+    width: 100vw;
+    height: 10vh;
+}
+.Title{
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
     display: inline-block;
-    vertical-align: top;
+    margin: 0;
+    margin-bottom: 10px;
 }
-
 header img{
-    vertical-align:bottom;
-}
+    margin-left: 30px;  
 
+}
 .FirstConteiner{
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(87, 84, 84);
-    padding-top: 50px;
-
+    height: 90vh;
+    background-color: rgb(153, 141, 141);
+    padding-top: 30px;
 }
-
 .MainSection{
     width: 80vw;
-    height: 90vh; 
+    height: 80vh; 
     margin: auto;
     background-color: white;
 }
-
 .button{
-    width: 140px;
-    height: 50px; 
-    padding: 15px 32px; 
+    width: 130px;
+    height: 30px; 
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 10px;
+    border-radius: 25%;
   }
-
 .Task{
     border-color: rgb(123, 123, 218); 
     color: white;
     background-color: lightblue;
     margin: 10px 10px 10px 50px;
 }
-
 .Section{
     border-color: wheat;
     color: rgb(88, 88, 55);
@@ -53,10 +52,9 @@ header img{
     border-bottom: grey 1px solid;
     width: 100%;
 }
-
 section h2{
     font-family: 'Dongle', sans-serif;
-    font-size: 55px;
+    font-size: 30px;
     margin: 0px 0px 0px 0px;
     display: inline-block;
 }
@@ -64,20 +62,25 @@ section h2{
     font-size: 20px;
     margin-left: 20px;
 }
-
 ul {
     list-style-type: none;
     margin: 0px;
 }
-
 ul li{
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
     margin: 0px 0px 0px 0px;
+    display: block;
 }   
 .Tick{
     border: 2px solid lightgreen;
     color: green;
+    border-radius: 100%;    
+    font-size: 10px;
+}
+.Cross{
+    border: 2px solid Red;
+    color: red;
     border-radius: 100%;    
     font-size: 10px;
 }
@@ -88,13 +91,19 @@ ul li{
     font-size: 15px;
 }
 .blue{
-    background-color: lightblue;
+    background-color: lightblue;     
 }
 .magenta{
     background-color: magenta;
 }
-green{
-
+.green{
+    background-color: lightgreen;
 }
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: rgb(240, 111, 111);
+}   
 
 
