@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.Displayreset{
+    display: inline-block;
+    vertical-align: top;
+}
+
+header img{
+    vertical-align:bottom;
+}
+
+.FirstConteiner{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(87, 84, 84);
+    padding-top: 50px;
+
+}
+
+.MainSection{
+    width: 80vw;
+    height: 90vh; 
+    margin: auto;
+    background-color: white;
+}
+
+.Itemblue{
+    background-color: lightblue;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+.button{
+    width: 140px;
+    height: 50px; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.Task{
+    border-color: rgb(123, 123, 218); 
+    color: white;
+    background-color: lightblue;
+    margin: 10px 10px 10px 50px;
+}
+
+.Section{
+    border-color: wheat;
+    color: rgb(88, 88, 55);
+
+}       
+.hr{
+    border-bottom: grey 1px solid;
+    width: 100%;
+}
+
+section h2{
+    font-family: 'Dongle', sans-serif;
+    font-size: 55px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+}
+.Arrow{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+ul li{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}   
+.Tick{
+    border: 2px solid lightgreen;
+    color: green;
+    border-radius: 100%;    
+    font-size: 10px;
+}
+
+
