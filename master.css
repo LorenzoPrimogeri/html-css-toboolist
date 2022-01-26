@@ -78,15 +78,18 @@ ul li{
 .Tick{
     border: 2px solid lightgreen;
     color: green;
-    border-radius: 100%;    
+    border-radius: 50%;    
     font-size: 10px;
+    text-align: center;
 }
 .Cross{
     border: 2px solid Red;
     color: red;
-    border-radius: 100%;    
+    border-radius: 50%;    
     font-size: 10px;
+    text-align: center;
 }
+        
 .Item{ 
     color: white;
     border-radius: 10px;
