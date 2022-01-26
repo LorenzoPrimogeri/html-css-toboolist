@@ -4,30 +4,33 @@
 }
 header{
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
+    line-height: 100px;
 }
 .Title{
     font-family: 'Dongle', sans-serif;
     font-size: 50px;
     display: inline-block;
-    margin: 0;
-    margin-bottom: 10px;
-    line-height: 100px;
+    margin-bottom: 10px;  
+    vertical-align: middle; 
 }
 header img{
     margin-left: 30px;  
+    vertical-align: middle;
 }
 .FirstConteiner{
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     background-color: rgb(153, 141, 141);
     padding-top: 30px;
+    
 }
 .MainSection{
     width: 80vw;
     height: 80vh; 
     margin: auto;
     background-color: white;
+    border-radius: 10px;
 }
 .button{
     width: 130px;
